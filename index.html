@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModuleTest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Heading">
+    <h1>Sign Up Form</h1></div>
+    <div class="form">
+    <form>
+        <label for="Email">Email</label><br>
+        <input type="email" id="Email" placeholder="Example@email.com"><br>
+        <span id="emailError" class="error"></span>
+        <br><br>
+        <label for="Password">Password</label><br>
+        <input type="password" id="Password" placeholder="Your Password"><br>
+        <span id="passwordError" class="error"></span>
+        <br>
+        <span id="successMessage"></span><br><br>
+        <button id="submit" type="button" onclick="submitForm()"> Submit</button>
+    </form>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
